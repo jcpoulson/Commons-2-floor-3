@@ -1,0 +1,76 @@
+.RA img {
+    border-radius: 50%;
+}
+
+.RA img:hover {
+    transform: scale(1.1);
+}
+
+.RS {
+    margin-top: 20%;
+}
+
+.RS img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.RS img:hover {
+    transform: scale(1.1);
+}
+
+.CGL {
+    margin-top: 30%;
+}
+
+.CGL img {
+    border-radius: 50%;
+}
+
+.CGL img:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+    .RA {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .RS {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .CGL {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .box {
+        position: relative;
+    }
+
+    .RA {
+        width: 32%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+
+    .RS {
+        width: 32%;
+        position: absolute;
+        margin-left: 35%;
+        top: 50%;
+    }
+
+    .CGL {
+        width: 32%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+    }
+}
